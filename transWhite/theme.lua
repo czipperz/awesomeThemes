@@ -49,7 +49,7 @@ theme.font                          = "Tamsyn 10.5"
 theme.taglist_font                  = "Tamsyn 8"
 
 theme.fg_normal                     = "#000000"
-theme.fg_focus                      = "#FFFFFF"--"#006666"
+theme.fg_focus                      = "#0055CC"--"#006666"
 theme.fg_urgent                     = "#FFFFFF"
 
 theme.bg_normal                     = "#00000000"
@@ -59,7 +59,7 @@ theme.border_width                  = "1"
 theme.border_normal                 = "#252525"
 theme.border_focus                  = "#0099CC"
 --Taglist is workspaces
-theme.taglist_fg_focus              = "#FFFFFF"
+theme.taglist_fg_focus              = "#0099CC"
 theme.taglist_bg_focus              = "png:" .. theme.icon_dir .. "/taglist_bg_focus.png"
 theme.taglist_border_width          = "1"
 --Task bar
@@ -72,6 +72,8 @@ theme.awful_widget_height           = 14
 theme.awful_widget_margin_top       = 2
 theme.menu_height                   = "20"
 theme.menu_width                    = "400"
+--theme.menu_fg_normal                = "#000000"
+--theme.menu_fg_focus                 = "#0099CC"
 theme.menu_bg_normal                = "#FFFFFF66"
 theme.menu_bg_focus                 = "#FFFFFF66"
 
