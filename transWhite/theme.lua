@@ -1,8 +1,9 @@
 --[[
-                                
-     Holo Awesome WM config 2.0 
-     github.com/copycat-killer  
-                                
+
+	 Transparent Awesome WM config 2.0
+	 It is configured for a WHITE wallpaper
+	 github.com/czipperz
+
 --]]
 
 local awful = require("awful")
