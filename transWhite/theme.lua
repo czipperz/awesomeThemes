@@ -50,7 +50,7 @@ theme.font                          = "Tamsyn 10.5"
 theme.taglist_font                  = "Tamsyn 8"
 
 theme.fg_normal                     = "#000000"
-theme.fg_focus                      = "#0055CC"--"#006666"
+theme.fg_focus                      = "#00AA88"--"#0055CC"--"#006666"
 theme.fg_urgent                     = "#FFFFFF"
 
 theme.bg_normal                     = "#00000000"
@@ -79,7 +79,7 @@ theme.menu_bg_normal                = "#FFFFFF66"
 theme.menu_bg_focus                 = "#FFFFFF66"
 
 theme.widget_bg                     = theme.icon_dir .. "/bg_focus_noline.png"
-theme.awesome_icon                  = theme.icon_dir .. "/awesome_icon.png"
+theme.awesome_icon                  = theme.icon_dir .. "/logo-arch.png"
 theme.vol_bg                        = theme.icon_dir .. "/vol_bg.png"
 theme.menu_submenu_icon             = theme.icon_dir .. "/submenu.png"
 theme.taglist_squares_sel           = theme.icon_dir .. "/square_sel.png"

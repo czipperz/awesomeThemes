@@ -29,8 +29,8 @@ themedir      = themes .. themename
 theme.icon_dir = themedir .. "/icons"
 theme.topbar_path = "png:" .. theme.icon_dir .. "/topbar/"
 
-wallpaper1    = themedir .. "/mywall.png"
---wallpaper1    = themedir .. "/mywall2.png"
+--wallpaper1    = themedir .. "/mywall.png"
+wallpaper1    = themedir .. "/mywall2.png"
 wpscript      = home .. "/.wallpaper"
 
 if awful.util.file_readable(wallpaper1) then
@@ -76,7 +76,7 @@ theme.menu_bg_normal                = "#00000066"
 theme.menu_bg_focus                 = "#00000066"
 
 theme.widget_bg                     = theme.icon_dir .. "/bg_focus_noline.png"
-theme.awesome_icon                  = theme.icon_dir .. "/awesome_icon.png"
+theme.awesome_icon                  = theme.icon_dir .. "/logo-arch.png"
 theme.vol_bg                        = theme.icon_dir .. "/vol_bg.png"
 theme.menu_submenu_icon             = theme.icon_dir .. "/submenu.png"
 theme.taglist_squares_sel           = theme.icon_dir .. "/square_sel.png"
