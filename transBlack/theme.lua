@@ -46,8 +46,8 @@ else
 end
 --}}}
 
-theme.font                          = "Tamsyn 10.5"
-theme.taglist_font                  = "Tamsyn 8"
+theme.font                          = "Meslo LG S DZ 11"
+theme.taglist_font                  = "Meslo LG S DZ 9"
 
 theme.fg_normal                     = "#FFFFFF"
 theme.fg_focus                      = "#00FF00"
@@ -57,23 +57,23 @@ theme.bg_normal                     = "#00000000"
 theme.bg_focus                      = "#00000000"
 theme.bg_urgent                     = "#FFFFFF"
 theme.border_width                  = "1"
-theme.border_normal                 = "#252525"
-theme.border_focus                  = "#0099CC"
+theme.border_normal                 = "#000000"
+theme.border_focus                  = "#00FF00"
 --Taglist is workspaces
 theme.taglist_fg_focus              = "#00FF00"
 theme.taglist_bg_focus              = "png:" .. theme.icon_dir .. "/taglist_bg_focus.png"
 --Task bar
 theme.tasklist_bg_normal            = "#00000000"
-theme.tasklist_fg_focus             = "#00FF00"--"#4CB7DB"
-theme.tasklist_bg_focus             = "#00000000"--"png:" .. theme.icon_dir .. "/bg_focus_noline.png"
+theme.tasklist_fg_focus             = "#FFFFFF"--"#4CB7DB"
+theme.tasklist_bg_focus             = "#00FF0055"--4CB7DB55"--00000000"--"png:" .. theme.icon_dir .. "/bg_focus_noline.png"
 
 theme.textbox_widget_margin_top     = 1
 theme.awful_widget_height           = 14
 theme.awful_widget_margin_top       = 2
 theme.menu_height                   = "20"
 theme.menu_width                    = "400"
-theme.menu_bg_normal                = "#00000066"
-theme.menu_bg_focus                 = "#00000066"
+theme.menu_bg_normal                = "#00000088"
+theme.menu_bg_focus                 = "#00000088"
 
 theme.widget_bg                     = theme.icon_dir .. "/bg_focus_noline.png"
 theme.awesome_icon                  = theme.icon_dir .. "/logo-arch.png"
@@ -124,7 +124,7 @@ theme.tasklist_maximized_horizontal = ""
 theme.tasklist_maximized_vertical   = ""
 
 -- lain related
-theme.useless_gap_width             = 10
+theme.useless_gap_width             = 8
 theme.layout_uselesstile            = theme.icon_dir .. "/uselesstile.png"
 theme.layout_uselesstileleft        = theme.icon_dir .. "/uselesstileleft.png"
 theme.layout_uselesstiletop         = theme.icon_dir .. "/uselesstiletop.png"
