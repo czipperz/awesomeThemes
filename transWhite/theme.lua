@@ -29,8 +29,8 @@ themedir      = themes .. themename
 theme.icon_dir = themedir .. "/icons"
 theme.topbar_path = "png:" .. theme.icon_dir .. "/topbar/"
 
-wallpaper1    = themedir .. "/mywall3.png"
---wallpaper1    = themedir .. "/mywall2.png"
+wallpaper1    = themedir .. "/wall3.png"
+--wallpaper1    = themedir .. "/wall2.png"
 wpscript      = home .. "/.wallpaper"
 
 if awful.util.file_readable(wallpaper1) then
