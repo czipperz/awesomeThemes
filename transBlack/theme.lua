@@ -29,7 +29,7 @@ themedir      = themes .. themename
 theme.icon_dir = themedir .. "/icons"
 theme.topbar_path = "png:" .. theme.icon_dir .. "/topbar/"
 
-wallpaper1    = themedir .. "/wall3.png"
+wallpaper1    = themedir .. "/Madeon-Adventure.png"--"/wall3.png"
 wpscript      = home .. "/.wallpaper"
 
 if awful.util.file_readable(wallpaper1) then
@@ -57,14 +57,14 @@ theme.bg_focus                      = "#00000000"
 theme.bg_urgent                     = "#FFFFFF"
 theme.border_width                  = "1"
 theme.border_normal                 = "#000000"
-theme.border_focus                  = "#00FF00"
+theme.border_focus                  = theme.fg_focus
 --Taglist is workspaces
-theme.taglist_fg_focus              = "#00FF00"
+theme.taglist_fg_focus              = theme.fg_focus
 theme.taglist_bg_focus              = "png:" .. theme.icon_dir .. "/taglist_bg_focus.png"
 --Task bar
 theme.tasklist_bg_normal            = "#00000000"
 theme.tasklist_fg_focus             = "#FFFFFF"--"#4CB7DB"
-theme.tasklist_bg_focus             = "#00FF0055"--4CB7DB55"--00000000"--"png:" .. theme.icon_dir .. "/bg_focus_noline.png"
+theme.tasklist_bg_focus             = theme.fg_focus.."55"--4CB7DB55"--00000000"--"png:" .. theme.icon_dir .. "/bg_focus_noline.png"
 
 theme.textbox_widget_margin_top     = 1
 theme.awful_widget_height           = 14

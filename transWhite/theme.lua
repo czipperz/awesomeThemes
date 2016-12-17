@@ -29,8 +29,7 @@ themedir      = themes .. themename
 theme.icon_dir = themedir .. "/icons"
 theme.topbar_path = "png:" .. theme.icon_dir .. "/topbar/"
 
-wallpaper1    = themedir .. "/wall3.png"
---wallpaper1    = themedir .. "/wall2.png"
+wallpaper1    = themedir .. "/reagan.jpg"--"/mywall3.png"
 wpscript      = home .. "/.wallpaper"
 
 if awful.util.file_readable(wallpaper1) then
@@ -50,33 +49,33 @@ theme.font                          = "Tamsyn 10.5"
 theme.taglist_font                  = "Tamsyn 8"
 
 theme.fg_normal                     = "#000000"
-theme.fg_focus                      = "#00AA88"--"#0055CC"--"#006666"
+theme.fg_focus                      = "#FFFFFF"
 theme.fg_urgent                     = "#FFFFFF"
 
-theme.bg_normal                     = "#00000000"
-theme.bg_focus                      = "#00000000"
-theme.bg_urgent                     = "#000000"
+theme.bg_normal                     = "#FFFFFF00"
+theme.bg_focus                      = "#FFFFFF00"
+theme.bg_urgent                     = "#F00"
 theme.border_width                  = "1"
-theme.border_normal                 = "#252525"
-theme.border_focus                  = "#0099CC"
+theme.border_normal                 = "#000000FF"
+theme.border_focus                  = "#FFFFFFFF"
 --Taglist is workspaces
-theme.taglist_fg_focus              = "#0099CC"
-theme.taglist_bg_focus              = "png:" .. theme.icon_dir .. "/taglist_bg_focus.png"
+theme.taglist_fg_focus              = theme.fg_focus
+theme.taglist_bg_focus              = theme.bg_focus--"png:" .. theme.icon_dir .. "/taglist_bg_focus.png"
 theme.taglist_border_width          = "1"
 --Task bar
-theme.tasklist_bg_normal            = "#00000000"
---theme.tasklist_fg_focus             = "#00FF00"--"#4CB7DB"
-theme.tasklist_bg_focus             = "#00000000"--"png:" .. theme.icon_dir .. "/bg_focus_noline.png"
+theme.tasklist_fg_focus             = theme.fg_focus
+theme.tasklist_bg_normal            = theme.bg_normal
+theme.tasklist_bg_focus             = theme.bg_focus--"png:" .. theme.icon_dir .. "/bg_focus_noline.png"
 
 theme.textbox_widget_margin_top     = 1
 theme.awful_widget_height           = 14
 theme.awful_widget_margin_top       = 2
 theme.menu_height                   = "20"
 theme.menu_width                    = "400"
---theme.menu_fg_normal                = "#000000"
---theme.menu_fg_focus                 = "#0099CC"
-theme.menu_bg_normal                = "#FFFFFF66"
-theme.menu_bg_focus                 = "#FFFFFF66"
+theme.menu_fg_normal                = theme.fg_normal
+theme.menu_fg_focus                 = theme.fg_focus
+theme.menu_bg_normal                = theme.bg_normal
+theme.menu_bg_focus                 = theme.bg_focus
 
 theme.widget_bg                     = theme.icon_dir .. "/bg_focus_noline.png"
 theme.awesome_icon                  = theme.icon_dir .. "/logo-arch.png"
